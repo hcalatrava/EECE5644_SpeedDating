@@ -26,4 +26,17 @@ if __name__ == '__main__':
     # Average age of participants
     print(int(df_no_dupes.drop_duplicates(subset=['iid'])["age"].mean()))
 
+def read_dataset():
+    """ Returns dataframe with dataset
+
+    Parameters
+    ----------
+
+    Returns
+    -------
+    dataset : DataFrame
+        contains the dataset
+    """
+    dataset = pd.read_excel(Config.path_dataset)
+    return dataset
 
