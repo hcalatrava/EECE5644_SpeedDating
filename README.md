@@ -32,9 +32,11 @@ can use methods such as k-means to verify our classifier / regression model, and
 regularization (l1 or l2) to potentially reduce computational complexity / runtime of our model. We will
 have to normalize our input data as many of them exist on different scales.
 
+## Results
+Please in order to reproduce the results provided in the project final report, check the code from the `imblearn_experiment.ipynb` (containing Experiment 2 with the imblearn package) and `main.ipynb` (containing all experiments except Experiment 2) files.
+
 ## Authors
 * Robert Ashby
-* Helena Calatrava, from the Signal Processing, Imaging, Reasoning and Learning (SPIRAL) Group also at 
-Northeastern University, Boston (MA). 
+* Helena Calatrava
 * Hwijong Im
 * Kuo Yang
