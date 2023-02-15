@@ -26,7 +26,7 @@ Forest, Naive Bayes Classifier, Logistic Regression, SVM
 
 We can use this data to create a model as a basis for an application or service to match potential
 dates together. A Bayes classifier could be used to predict whether someone would be a potential match
-for others based on their profile information (location, income, major, hobbies, etc). Regression could be
+for others based on their profile information (income, location, major, hobbies, etc). Regression could be
 used to predict what type of person someone would match with based on their profile information. We
 can use methods such as k-means to verify our classifier / regression model, and we could use pca/lda or
 regularization (l1 or l2) to potentially reduce computational complexity / runtime of our model. We will
